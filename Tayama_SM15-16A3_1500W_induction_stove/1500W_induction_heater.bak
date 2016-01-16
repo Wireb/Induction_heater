@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:1500W_induction_heater-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -801,7 +800,7 @@ L CONN_01X02 CN3
 U 1 1 569ADE66
 P 4250 5700
 F 0 "CN3" H 4250 5850 50  0000 C CNN
-F 1 "fan (12V)" V 4400 5700 50  0000 C CNN
+F 1 "fan" V 4350 5700 50  0000 C CNN
 F 2 "" H 4250 5700 60  0000 C CNN
 F 3 "" H 4250 5700 60  0000 C CNN
 	1    4250 5700
@@ -977,10 +976,10 @@ $EndComp
 Text GLabel 3050 1700 0    30   Input ~ 0
 Highway12
 $Comp
-L CP1_Small EC11
+L CP1_Small EC?
 U 1 1 569B71E7
 P 3800 6300
-F 0 "EC11" H 3810 6370 50  0000 L CNN
+F 0 "EC?" H 3810 6370 50  0000 L CNN
 F 1 "4.7uF 50V" H 3810 6220 25  0000 L CNN
 F 2 "" H 3800 6300 60  0000 C CNN
 F 3 "" H 3800 6300 60  0000 C CNN
@@ -2196,6 +2195,4 @@ Wire Wire Line
 	2300 4800 2650 4800
 Text GLabel 2650 4800 2    30   Input ~ 0
 Highway16
-Text Notes 6950 6600 0    30   ~ 0
-Copyright (c) 2015 Peter Shabino\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this hardware, software, and associated documentation files \n(the "Product"), to deal in the Product without restriction, including without limitation the rights to use, copy, modify, merge, publish, \ndistribute, sublicense, and/or sell copies of the Product, and to permit persons to whom the Product is furnished to do so, subject to the \nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Product.\n\nTHE PRODUCT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF \nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE \nFOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION \nWITH THE PRODUCT OR THE USE OR OTHER DEALINGS IN THE PRODUCT.\n\n\n\n
 $EndSCHEMATC
